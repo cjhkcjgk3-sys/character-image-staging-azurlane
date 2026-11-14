@@ -50,21 +50,19 @@ examples/作品模板/00-清单.md
 
 本仓库只收集碧蓝航线，不要在 `images/` 下新增其他作品。皮肤立绘也放在 `images/碧蓝航线/`，并在清单里单独开「## 皮肤」小节打勾；收录范围见「皮肤立绘收录规则」。
 
-## 下载单个作品
+## 手机下载
 
-不必下载整个仓库。打开作品文件夹后，可用 [download-directory](https://download-directory.github.io/?url=https://github.com/cjhkcjgk3-sys/character-image-staging-azurlane/tree/main/images/%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF) 只打包 `images/碧蓝航线/`。若已克隆仓库，也可以只压缩该目录：
+打开本仓库的 [图片下载](https://github.com/cjhkcjgk3-sys/character-image-staging-azurlane/releases/tag/downloads) 页面，点要下的作品即可，例如碧蓝航线是 `azur-lane.zip`。页面上有中文作品名和英文文件名的对照。图片有更新时，这个页面会自动换成最新的包。
 
-```sh
-zip -r 碧蓝航线.zip images/碧蓝航线
-```
+下好后，在小说自动生成器的批量写卡里「导入作品 ZIP」，再用「📋 从清单添加到名单」勾选角色。压缩包上限 1 GB。
 
-不必等清单全部勾选；可先打包已有图片，后续再补充。
+若只想自己打包某个文件夹，也可用 [download-directory](https://download-directory.github.io/?url=https://github.com/cjhkcjgk3-sys/character-image-staging-azurlane/tree/main/images/%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF) 或本地 `zip -r 碧蓝航线.zip images/碧蓝航线`。不必等清单全部勾选，可先打包已有图片。
 
 ## 在小说生成器里使用
 
 小说自动生成器 1.13 起支持作品 ZIP 图片库（1.15.1 为当前版本）：
 
-1. 把作品文件夹打成 ZIP 下载到手机（下面的 download-directory 链接或 `zip -r` 都行，清单在 ZIP 根目录或作品子目录都能识别；压缩后上限 1 GB）。
+1. 打开本仓库的 [图片下载](https://github.com/cjhkcjgk3-sys/character-image-staging-azurlane/releases/tag/downloads) 页面，把要导入的作品 ZIP 下到手机（清单已打在包里；压缩后上限 1 GB）。
 2. 在生成器的批量写卡里“导入作品 ZIP”。导入只读目录并生成小缩略图，原图在点开或发送时才读取。
 3. 点“📋 从清单添加到名单”，勾选角色后“➕ 加入名单”，名字按清单原样加入，重复的自动跳过；皮肤在单独的折叠分组里。
 4. 名单每行左边是名字、右边是缩略图：有缩略图＝有图，虚线空框＝无图，“?”＝多张候选无法确定。点缩略图看大图。
